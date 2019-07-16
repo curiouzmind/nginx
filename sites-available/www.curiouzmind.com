@@ -3,6 +3,10 @@ server {
 	listen 80 default_server;
 	listen [::]:80 default_server;
 
+        if ($sites_allowed = no) {
+                return 403;
+        }
+
 	server_name curiouzmind.com www.curiouzmind.com;
 
 	root /var/www/curiouzmind.com;
