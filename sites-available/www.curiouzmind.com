@@ -3,7 +3,7 @@ server {
 	listen 80 default_server;
 	listen [::]:80 default_server;
 
-        if ($sites_allowed = no) {
+        if ($allowed_country = no) {
                 return 403;
         }
 
