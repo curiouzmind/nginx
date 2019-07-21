@@ -1,7 +1,7 @@
 # Prod server configuration
 server {
-	listen 8090;
-	listen [::]:8090;
+	listen 80;
+	listen [::]:80;
 
 	server_name uat.curiouzmind.com;
 
