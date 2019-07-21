@@ -5,7 +5,7 @@ server {
 
 	server_name uat.curiouzmind.com;
 
-	root /var/www/uat.curiouzmind.com;
+	root /home/balade2/uat.curiouzmind.com;
 	index index.php index.html index.htm index.nginx-debian.html;
         
 	location / {
