@@ -1,1 +1,1 @@
-/etc/nginx/sites-available/uat.curiouzmind.com
+/etc/nginx/sites-available/uat.curiouzmind.com;
